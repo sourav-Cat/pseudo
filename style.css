@@ -1,0 +1,100 @@
+h3{
+    color: blue;
+}
+h3:hover{
+    color: rgb(22, 4, 39);
+    background-color:tomato;
+}
+input:focus{
+    color: blue;
+    outline: 0;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+a:visited{
+    color: red;
+}
+li:last-child{
+    color: red ;
+}
+li:nth-child(2n){
+    color: aqua;
+}
+
+
+/* Css Position */
+.swim-container{
+    position: relative;
+}
+.box{
+    border: 2px dotted plum;
+    width: 200px;
+}
+/* .ring{
+    position: relative;
+    left: 50px;
+    top: 30px;
+} */
+ /* .ring{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+ } */
+/* .ring{
+    position: sticky;
+    top: 0px;
+} */
+.ring{
+    position: fixed;
+    top: 0px;
+}
+
+.another{
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+}
+ .dummy{
+    border: 2px solid turquoise;
+    width: 200px;
+    height: 200px;   ;
+ }
+/* Z Index Style */
+
+ .box1{
+    position: relative;
+
+ }
+ .ring1{
+    top: -50px;
+ }
+ .boy1{
+    z-index: 1;
+ }
+
+/* now learn pseduo element  */
+ h4::after{
+content: '.pdf';
+color: red;
+font-size: 10px;
+background-color: yellow;
+
+ }
+  h4::before{
+content: '.start';
+color: red;
+font-size: 10px;
+background-color: yellow;
+
+ }
+
+ p::first-letter{
+    font-size: 3em;
+ }
+ 
+ p::first-line{
+    background-color: red;
+ }
+::selection{
+    background-color: rgb(162, 162, 211);
+}
